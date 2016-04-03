@@ -1,0 +1,41 @@
+@import url('xxx.css');
+
+/* ok */
+.b-invalid-css-naming
+{
+    color: red;
+}
+
+.b-page .b-invalid-css-naming .another-block
+{
+    color: red;
+}
+
+.b-invalid-css-naming .another-block > a:hover,
+.b-invalid-css-naming__elem,
+.b-invalid-css-naming__elem_mod_val
+{
+    color: red;
+}
+
+.b-invalid-css-naming .test-e_x_c_l_u_d_e_d
+{
+    color: red;
+}
+
+/* not ok */
+.another-block
+{
+    color: green;
+}
+
+.b-invalid-css-naming__elem__elem
+{
+    color: green;
+}
+
+.test-e_x_c_l_u_d_e_d
+{
+    color: red;
+}
+

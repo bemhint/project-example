@@ -4,7 +4,9 @@ module.exports = {
     exludePaths: ['node_modules/**'],
 
     plugins: {
-        'bemhint-css-naming': true,
+        'bemhint-css-naming': {
+            excludeClasses: ['test-*']
+        },
         'bemhint-deps-specification': true,
         'bemhint-fs-naming': true
     }
