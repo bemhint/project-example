@@ -1,0 +1,23 @@
+{
+  "name": "project-stub",
+  "version": "1.0.0",
+  "description": "Simple project with plugins for bemhint",
+  "author": "Eugene Gavryushin <job.egavr@yandex.ru>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bemhint/project-stub.git"
+  },
+  "keywords": [
+    "bemhint",
+    "project-stub",
+    "plugins"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bemhint": "^0.6.0",
+    "bemhint-css-naming": "git://github.com/bemhint/bemhint-css-naming#master",
+    "bemhint-deps-specification": "git://github.com/bemhint/bemhint-deps-specification#master",
+    "bemhint-fs-naming": "git://github.com/bemhint/bemhint-fs-naming#master"
+  },
+  "private": true
+}
