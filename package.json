@@ -15,9 +15,9 @@
   "license": "MIT",
   "dependencies": {
     "bemhint": "^0.6.0",
-    "bemhint-css-naming": "git://github.com/bemhint/bemhint-css-naming#master",
-    "bemhint-deps-specification": "git://github.com/bemhint/bemhint-deps-specification#master",
-    "bemhint-fs-naming": "git://github.com/bemhint/bemhint-fs-naming#master"
+    "bemhint-css-naming": "^1.0.0",
+    "bemhint-deps-specification": "^1.0.0",
+    "bemhint-fs-naming": "^1.0.0"
   },
   "private": true
 }
