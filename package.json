@@ -1,15 +1,15 @@
 {
-  "name": "project-stub",
+  "name": "project-example",
   "version": "1.0.0",
   "description": "Simple project with plugins for bemhint",
   "author": "Eugene Gavryushin <job.egavr@yandex.ru>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bemhint/project-stub.git"
+    "url": "git://github.com/bemhint/project-example.git"
   },
   "keywords": [
     "bemhint",
-    "project-stub",
+    "project-example",
     "plugins"
   ],
   "license": "MIT",
